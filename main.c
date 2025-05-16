@@ -104,7 +104,7 @@ void ADC_init (void)
 
 int main(void)
 {
-    WDTCTL = WDTPW + WDTHOLD; // Stop watchdog timer
+x    WDTCTL = WDTPW + WDTHOLD; // Stop watchdog timer
     Clk_calib();
     ADC_init();
 
